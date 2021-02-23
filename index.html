@@ -6,26 +6,27 @@
     <title>Alex Penman</title>
     <!-- <link href="simple-grid.min.css" rel="stylesheet" type="text/css" /> -->
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="style-small.css" type="text/css">
   </head>
   <body>
     <script src="script.js"></script>
     <div class="row">
-        <div class="col-4 header">
+        <div class="col-4 header name">
             <span class="secret" id="intro-pair">Hi, I'm</span>
             <span class="story" id="intro" onmouseover="story(this);">Alex Penman</span><span class="secret" id="intro-pair-post">.</span>
             <div class="description socials">
                 <span class="story" id="social" onmouseover="story(this);">Say hi ~</span>
-                <span class="secret" id="social-pair-post">
+                <div class="secret" id="social-pair-post">
                     <a href="mailto:apenman427@gmail.com?subject=Hi,%20hello" target="_blank" class="icons">Email</a>
                     <a href="https://www.instagram.com/penxman" target="_blank" class="icons">Instagram</a>
                     <a href="https://www.are.na/alex-penman" target="_blank" class="icons">Are.na</a>
                     <a href="https://www.bandcamp.com/apenman" target="_blank" class="icons">Bandcamp</a>
-                </span>
+                </div>
             </div>
         </div>
         <div class="col-1"></div>
         <div class="col-7">
-            <div class="header">
+            <div class="header about">
                 <span class="secret" id="designer-pair">I’m a </span>
                 <span class="story" id="designer" onmouseover="story(this);">UX Designer </span>
                 <span class="secret" id="oakland-pair">and occassional creative coder based in </span> 
@@ -54,6 +55,10 @@
                 <span class="story" id="inspo" onmouseover="story(this);">inspiration</span>
                 <span class="secret" id="inspo-pair-post">for design, coding, and the world.</span>
             </div>
+        </div>
+        <div class="description socials-mobile">
+            <a href="mailto:apenman427@gmail.com?subject=Hi,%20hello" target="_blank" class="icons-mobile">Email</a>
+            <a href="https://www.instagram.com/penxman" target="_blank" class="icons-mobile">Instagram</a>
         </div>
       </div>
 	<!-- <div id="showtest">Hi, I'm </div>
