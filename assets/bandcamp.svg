@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bandcamp</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-10" transform="translate(-685.000000, -523.000000)">
+            <g id="Group-2" transform="translate(564.000000, 523.000000)">
+                <g id="bandcamp" transform="translate(121.000000, 0.000000)">
+                    <circle id="Oval" fill="#000000" cx="12" cy="12" r="12"></circle>
+                    <circle id="Oval" fill="#000000" cx="12" cy="12" r="11"></circle>
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="5 16 9.33825 8 19 8 14.6611667 16"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

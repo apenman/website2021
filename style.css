@@ -1,0 +1,84 @@
+:root {
+    --onyx: #424B54;
+    --maxblue: #FF715B;
+
+    /* --onyx: #424B54;
+    --maxblue: #BF0603; */
+
+    /* --onyx: #3E442B;
+    --maxblue: #FA824C; */
+    /* --onyx: #A1B5D8;
+    --maxblue: #738290; */
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+.col-1 {width: 8.33%;}
+.col-4 {width: 33.33%;}
+.col-7 {width: 58.33%;}
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+  }
+
+a {
+    color: var(--onyx);
+}
+
+.row {
+    margin: 3em;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    font-size: 3em;
+    color: var(--onyx);
+    margin-bottom: 2em;
+}
+
+.description {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: var(--onyx);
+}
+
+.story {
+    color:var(--maxblue);
+    font-style: italic;
+}
+
+.secret {
+    visibility: hidden;
+}
+
+#showtest {
+	color: white;
+}
+
+#showtest2 {
+	color: white;
+}
+
+.socials {
+    position: absolute;
+    bottom: 6em;
+    margin-left: 10em;
+    font-size: 0.5em;
+}
+
+.icons {
+    text-decoration: underline;
+    margin-left: 0.5em;
+    /* color:var(--maxblue); */
+}
