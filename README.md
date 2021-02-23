@@ -1,2 +1,2 @@
-# website2021
-Website 2021
+# Website
+This is just a bit about me and some social links. Get in touch for my portfolio :) 
