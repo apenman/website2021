@@ -30,7 +30,7 @@ a {
 }
 
 .row {
-    margin: 3em;
+    margin: 2em;
 }
 
 .row::after {
